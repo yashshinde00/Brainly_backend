@@ -13,7 +13,7 @@ const PORT = 3000;
 app.use(express.json());
 app.use(cors())
 
-mongoose.connect("mongodb+srv://yashshinde121work:yash1234@cluster0.rjpnx.mongodb.net/SecondBrain")
+mongoose.connect("mongoDB_URL")
 
 
 app.post("/api/v1/signup",async(req, res) => {
